@@ -61,11 +61,7 @@ nav ul li a:hover {
 
 /* About Section */
 .about {
-<<<<<<< HEAD
     background-color: #f5f5dc; /* cream */
-=======
-    background-color: #f5f5dc; /* cream background */
->>>>>>> 572e45cfefb946aa2560a887e22c772ecb48d743
     color: #000000;
     padding: 80px 20px;
 }
@@ -80,11 +76,7 @@ nav ul li a:hover {
     margin: auto;
 }
 
-<<<<<<< HEAD
 .about-container img {
-=======
-.profile-img {
->>>>>>> 572e45cfefb946aa2560a887e22c772ecb48d743
     width: 240px;
     height: 240px;
     border-radius: 50%;
@@ -106,7 +98,6 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-<<<<<<< HEAD
 .about-buttons {
     display: flex;
     justify-content: center;
@@ -135,20 +126,6 @@ nav ul li a:hover {
 .btn:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-=======
-.btn {
-    display: inline-block;
-    background-color: #0d0d0d;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #333333;
->>>>>>> 572e45cfefb946aa2560a887e22c772ecb48d743
 }
 
 /* Experience & Education Section */
@@ -202,7 +179,6 @@ nav ul li a:hover {
     color: #eee;
 }
 
-<<<<<<< HEAD
 /* Skills Section */
 .skills-section {
     display: flex;
@@ -319,226 +295,3 @@ body {
     width: 30px;
     height: 30px;
 }
-=======
-
-/* Project Section */
-section.Project {
-    background-color: #0d0d0d; /* Matches dark theme */
-    padding: 80px 20px;
-    color: #ffffff;
-}
-
-.Project .column {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.Project h2 {
-    font-size: 28px;
-    margin-bottom: 30px;
-    color: #f0c674; /* same yellow highlight */
-    border-left: 4px solid #f0c674;
-    padding-left: 12px;
-}
-
-.Project .item {
-    background-color: #1a1a1a; /* dark card */
-    padding: 25px;
-    margin-bottom: 25px;
-    border-left: 4px solid #f0c674;
-    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
-}
-
-.Project .item h3 {
-    font-size: 22px;
-    margin-bottom: 5px;
-    color: #ffffff;
-}
-
-.Project .item h4 {
-    font-size: 18px;
-    color: #cccccc;
-    margin-bottom: 8px;
-}
-
-.Project .item span {
-    font-size: 14px;
-    color: #aaaaaa;
-    display: block;
-    margin-bottom: 12px;
-}
-
-.Project .item p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #eeeeee;
-}
-
-.Project .item:hover {
-    background-color: #222222;
-}
-/* Extras Section (Skills, Activities, Achievements) */
-.extras-section {
-    padding: 60px 20px;
-    background-color: #1a1a1a;
-    border-radius: 10px;
-    margin-bottom: 40px;
-    animation: slideIn 1.5s ease-in-out;
-}
-
-.extras-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.extras-box {
-    flex: 1;
-    min-width: 250px;
-    background-color: #222;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.6);
-    transition: transform 0.4s ease, background-color 0.4s ease;
-    animation: slideIn 1s ease forwards;
-}
-
-.extras-box:hover {
-    transform: translateY(-5px);
-    background-color: #2a2a2a;
-}
-
-.extras-box h2 {
-    color: #f39c12;
-    font-size: 22px;
-    margin-bottom: 15px;
-    text-align: center;
-}
-
-.extras-box ul {
-    list-style-type: disc;
-    padding-left: 20px;
-    color: #ccc;
-}
-
-.extras-box ul li {
-    margin-bottom: 10px;
-    font-size: 15px;
-}
-.about-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 20px; /* Space between buttons */
-  margin-top: 20px;
-}
-
-.btn {
-  padding: 12px 24px;
-  border: none;
-  color: white;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-  font-family: 'Segoe UI', sans-serif;
-}
-
-.btn-linkedin {
-  background-color: #0077b5;
-}
-
-.btn-github {
-  background-color: #24292e;
-}
-
-.btn:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-}
-.card-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 40px;
-    margin: 50px auto;
-    padding: 20px;
-}
-
-.card {
-    background: #1e1e1e;
-    color: #ffffff;
-    padding: 25px;
-    border-radius: 20px;
-    box-shadow: 0 6px 20px rgba(255, 165, 0, 0.2);
-    width: 300px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    position: relative;
-    overflow: hidden;
-}
-
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 30px rgba(255, 140, 0, 0.4);
-}
-
-.card h3 {
-    color: #FFA500;
-    font-size: 24px;
-    margin-bottom: 15px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.card ul {
-    list-style: none;
-    padding: 0;
-    line-height: 1.8;
-}
-
-.card ul li::before {
-    content: "📌";
-    margin-right: 10px;
-    color: #FFA500;
-}
-.contact {
-    background: linear-gradient(to right, #1a1a1a, #0d0d0d);
-    color: white;
-    padding: 60px 20px;
-    text-align: center;
-}
-
-.contact-box {
-    background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 20px;
-    max-width: 600px;
-    margin: auto;
-    padding: 40px;
-    box-shadow: 0 0 20px rgba(255, 165, 0, 0.3);
-    transition: 0.3s ease-in-out;
-}
-
-.contact-box:hover {
-    box-shadow: 0 0 30px rgba(255, 165, 0, 0.5);
-}
-
-.contact-box h2 {
-    font-size: 2em;
-    color: orange;
-    margin-bottom: 10px;
-}
-
-.contact-box a {
-    color: #00acee;
-    text-decoration: none;
-    transition: 0.2s;
-}
-
-.contact-box a:hover {
-    text-decoration: underline;
-    color: #1da1f2;
-}
-
->>>>>>> 572e45cfefb946aa2560a887e22c772ecb48d743
